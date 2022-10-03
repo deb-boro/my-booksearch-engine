@@ -22,7 +22,8 @@ const resolvers = {
         throw new AuthenticationError('Invalid credentials')
       }
 
-      const correctPassword = await user.isCorrectPassword(password)
+      const correctPassword = await User.isCorrectPassword(password)
+
       if (!correctPassword) {
         throw new AuthenticationError('Invalid credentials')
       }
