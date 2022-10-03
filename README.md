@@ -1,4 +1,4 @@
-# Web Portfolio in React
+# My book search engine
 
 The application is built using Google Books API search engine build with GraphQL API and Apollo Server.The Book search engine is an application is leveraging the MERN stack.
 
